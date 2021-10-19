@@ -16,7 +16,7 @@ total_missing = missing_val_count.sum()
 percentage = (total_missing/total_values) * 100
 print(percentage)
 
-### DROPPING MISSING VALUES METHOD
+## DROPPING MISSING VALUES METHOD
 
 dropping = Data.dropna() #(NOT RECOMMENDED)
 print(dropping.shape)
